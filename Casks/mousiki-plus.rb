@@ -4,7 +4,7 @@ cask "mousiki-plus" do
 
   url "https://github.com/StSchwerdtfeger/mousiki-plus/releases/download/v#{version}/Mousiki-#{version}-macos-universal-portable.zip"
   name "Mousiki Plus"
-  desc "Terminal music player and internet radio with oscilloscope and spectrogram"
+  desc "Terminal UI music and internet radio player"
   homepage "https://github.com/StSchwerdtfeger/mousiki-plus"
 
   depends_on formula: "ffmpeg"   # decoding, radio streams, recordings
