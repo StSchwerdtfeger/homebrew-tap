@@ -1,7 +1,7 @@
 cask "mousiki-plus" do
-  version "3.1.0"
-  sha256 "e51018e40ad2447435b88864d7ac48cfde018d820bfd109f630a4d1c80bace3d"
-
+  version "4.0.0"
+  sha256 "2906540a55adfb3fa7f0018e36675588407632bc772f88774029fab78cfa453b"
+  
   url "https://github.com/StSchwerdtfeger/mousiki-plus/releases/download/v#{version}/Mousiki-#{version}-macos-universal-portable.zip"
   name "Mousiki Plus"
   desc "Terminal UI music and internet radio player"
