@@ -1,10 +1,10 @@
 cask "mousiki-plus" do
-  version "4.0.0"
-  sha256 "2906540a55adfb3fa7f0018e36675588407632bc772f88774029fab78cfa453b"
-  
+  version "4.2.0"
+  sha256 "4496250ad57877151ea45970a86ff9c032ff8ab2d3160e720ef1beea8ff74401"
+
   url "https://github.com/StSchwerdtfeger/mousiki-plus/releases/download/v#{version}/Mousiki-#{version}-macos-universal-portable.zip"
   name "Mousiki Plus"
-  desc "Terminal UI music and internet radio player"
+  desc "Terminal music player and internet radio with oscilloscope and spectrogram"
   homepage "https://github.com/StSchwerdtfeger/mousiki-plus"
 
   depends_on formula: "ffmpeg"   # decoding, radio streams, recordings
