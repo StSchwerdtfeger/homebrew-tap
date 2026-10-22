@@ -1,6 +1,6 @@
 cask "mousiki-plus" do
-  version "4.2.0"
-  sha256 "4496250ad57877151ea45970a86ff9c032ff8ab2d3160e720ef1beea8ff74401"
+  version "4.5.0"
+  sha256 "f0cea1c5a62fb2d528b927a39efe8fc109250d3a71cb71b8d9cbb2ffff049a86"
 
   url "https://github.com/StSchwerdtfeger/mousiki-plus/releases/download/v#{version}/Mousiki-#{version}-macos-universal-portable.zip"
   name "Mousiki Plus"
